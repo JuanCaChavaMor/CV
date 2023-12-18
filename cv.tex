@@ -35,7 +35,11 @@
   \oldincludegraphics[#1,max width=10cm,max height=\textheight]{#2}
 }
 %%%
-
+%\renewcommand{\subsection}[1]{
+%  \par\vspace{.5\parskip}%
+%  {\headingfont\color{headercolor} #1}
+%  \par\vspace{.25\parskip}%
+%}
 
 
 \begin{document}
@@ -106,6 +110,7 @@
  %\newpage
 
 \section{Berufserfahrung}
+\subsection{Als Mathematiker}
 \begin{entrylist}
 \entry
 {06.2022 - 07.2023}{Mitarbeiter}{Combi Verbrauchermarkt
@@ -116,8 +121,6 @@ Bielefelder Schulvereins}{Vorbereitung auf die Aufnahmeprüfung
 am Studienkolleg}
 \entry
 {03.2020 - 02.2022}{Honorarlehrkraft} {Nachhilfe Schomberg, Bielefeld}{Nachhilfelehrer für Mathematik und Physik}
-\entry
-{12.2018 - 09.2019\!}{Wissenschaftlicher Mitarbeiter}{Classroommate SPA, Santiago, Chile}{Statistische Auswertung der Effizienz einer Lernplattform}
 \entry
     {10.2018 - 02.2019}
     {Pädagogischer Mitarbeiter}
@@ -153,13 +156,28 @@ am Studienkolleg}
    {Tutor}
    {UTFSM, Valpara\'iso, Chile}
    {Wahrscheinlichkeitsrechnung und Statistik; Numerische Analysis}
-
- %\entry
- \end{entrylist}%
-%\newpage
+\end{entrylist}%
+\subsection{Als Data Scientist}
+\begin{entrylist}
+ \entry
+{12.2018 - 09.2019}{\href{https://github.com/JuanCaChavaMor/CV/blob/main/Recommendation_Letter_Classroommate.pdf}{Wissenschaftlicher Mitarbeiter}}{Classroommate SPA, Santiago, Chile}{Statistische Auswertung von Daten zur Ermittlung der Effizienz einer Lernplattform}
+\entry
+    {2013 - 2016}
+    {\href{https://github.com/JuanCaChavaMor/CV/blob/main/Recommendation_Letter_UTFSM.pdf}{Dashboard-Entwicklung}}
+    {UTFSM, Valparaíso, Chile}
+    {Datenanalyse zur Erstellung statistischer Berichte}
+\end{entrylist}%
+\section{Weiterbildung}
+\begin{entrylist}
+\entry
+{08.2023 - 10.2023}
+{Data Scientist}
+{StackFuel GmbH}
+{Anwendung der Informatik, Mathematik und Statistik, um Datenquellen sowie Fremddaten zu analysieren und auszuwerten}
+\end{entrylist}
+\newpage
 \section{Hauptinteressen}
 \begin{entrylist}
-  
 \entry
     {Modellierung}
     {Mathematische Modellierung}
@@ -175,25 +193,10 @@ am Studienkolleg}
     {Forschung und Entwicklung}
     {}
     {Schwerpunkt in Mathematik und Physik. Fachgebiete: numerische Analysis, partielle Differentialgleichungen, Optimierung, Optimalsteuerungsprobleme, Finite-Elemente-Methode, Datenmodelle, Statistik und Wahrscheinlichkeitstheorie}
-
-%\entry
-%    {Lehre}
-%    {Kurse in Mathematik}
-%    {}
-%    {Unterrichten und Vorbereiten von Lehrmaterial in diversen Studienfächern}
-  
- 
 \end{entrylist}
 
-\newpage
-\section{Weiterbildung}
-\begin{entrylist}
-\entry
-{08.2023 - 10.2023}
-{Data Scientist}
-{StackFuel GmbH}
-{Anwendung der Informatik, Mathematik und Statistik, um Datenquellen sowie Fremddaten zu analysieren und auszuwerten}
-\end{entrylist}
+
+
 
 \section{Studium}
 \begin{entrylist}
@@ -259,6 +262,9 @@ Problems with Partial Differential Equations and Control Constraints}. Note: 1.1
 \entry
 {\LaTeX{}}
 {Hervorragende Kenntnisse}{}{}
+\entry
+{SQL}
+{Grundkenntnisse}{}{}
 \end{entrylist}
 \section{Sprachkenntnisse}
 \begin{entrylist}
@@ -283,7 +289,7 @@ Problems with Partial Differential Equations and Control Constraints}. Note: 1.1
 \section{Python Skills Radar Chart}
 \begin{figure}[h]
 \flushleft 
-\includegraphics[width=1.0\textwidth]{skills_radar_chart.png}
+\includegraphics[width=1.0\textwidth]{img/skills_radar_chart.png}
 %\caption{Python Skills Radar Chart}
 \end{figure}
 \section{Sprachen}
@@ -318,7 +324,7 @@ Problems with Partial Differential Equations and Control Constraints}. Note: 1.1
 %
 
 
-\vspace{-0.2cm}
+\vspace{-0.4cm}
 % \begin{flushright}
 % \emph{Im Anhang: Angebotsausarbeitung}
 % \end{flushright}
